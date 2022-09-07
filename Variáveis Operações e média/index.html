@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis Operações e média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média</h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo" alt="">
+
+        <div class="inputs">
+            <input type="text" class="captura-nome" id="input-nome" placeholder="Digite seu nome">
+            <input type="text" class="primeiraNota" id="input-nota" placeholder="Nota do primeiro bimeste">
+            <input type="text" class="segundaNota" id="input-nota" placeholder="Nota do segundo bimeste">
+            <input type="text" class="terceiraNota" id="input-nota" placeholder="Nota do terceiro bimeste">
+            <input type="text" class="quartaNota" id="input-nota" placeholder="Nota do quarto bimeste">
+
+            <input type="submit" onclick="mostraNaTela()" id="botao" class="botao" value="Mostrar Média">
+        </div>    
+
+            <p class="resultado"> </p>
+            <p class="aprovado-reprovado"></p>
+    </div>
+
+ 
+    
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>
