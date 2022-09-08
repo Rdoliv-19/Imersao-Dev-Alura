@@ -11,7 +11,7 @@ function mostraNaTela() {
     let notaFinal = (notaprimeiroBimestre + notaSegundoBimestre +
         notaTerceiroBimestre + notaQuartoBimestre) / 4;
     
-    notaFinal = Number(notaFinal).toFixed(1)
+    notaFinal = Number(notaFinal).toFixed(1) 
 
      resultado.innerHTML = (`Bem vindo ${nome} sua média foi de ${notaFinal}`)
 
