@@ -1,8 +1,6 @@
 ## :star2: Sobre o projeto
 
-A imersão Dev da Alura teve como objeivo a prática do Javascritp. Conceitos como variáveis, Arrays, estruturas de repetição foram abordados durante
-os exercícios
-
+Atividades focadas em JavaScript para a prática dos principais conceitos, sintaxe da linguagem.
 
 ![image](https://user-images.githubusercontent.com/101264784/192026373-01679b01-ecf9-432e-b88f-f1b5d1aa403e.png)
 
